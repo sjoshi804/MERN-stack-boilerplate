@@ -1,2 +1,3 @@
-# mern-stack-boilerplate
-A template repository for creating the scaffolding for a Mongo Express React Node web app. 
+# Node JS React JS Mongo DB Boiler Plate Web App
+
+This repository is a template for a MERN (Mongo Express React Node) web app. 
