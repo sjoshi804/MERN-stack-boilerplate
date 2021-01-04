@@ -6,7 +6,7 @@
 */
 
 import express = require('express');
-import { User } from './template';
+import { Template } from './template';
 const TemplateRouter = express.Router();
 
 

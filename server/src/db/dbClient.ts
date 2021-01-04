@@ -1,9 +1,9 @@
 import { MongoClient, Db } from "mongodb";
-import config = require("../.config")
+import config = require("../../.config")
 
 class DBClient {
     public static db: Db;
-    public static mongoClient: MongoClient
+    public static mongoClient: MongoClient;
 
     public static async connect()
     {   if (DBClient.db == undefined)

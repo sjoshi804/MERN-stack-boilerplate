@@ -4,12 +4,8 @@ import server from '../..';
 import chai = require('chai');
 import chaiHttp = require('chai-http');
 import { DBClient } from '../../db/dbClient';
-import { testDatabaseName } from '../../.config';
+import { testDatabaseName } from '../../../.config';
 import { v4 as uuid } from 'uuid';
-
-import { Applicant } from "./applicant/applicant";
-import { Recruiter } from "./recruiter/recruiter";
-import { Organizer } from "./organizer/organizer";
 
 // To use test HTTP API
 chai.use(chaiHttp);
